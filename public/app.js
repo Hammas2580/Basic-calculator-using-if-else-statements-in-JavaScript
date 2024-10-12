@@ -6,18 +6,17 @@ var operator = prompt("enter your operter", " + , - , *  , / , % ");
 var secondNumber = +prompt("enter second number");
 
 if (operator === "+") {
-  console.log("Addition" + " " + (firstNumber + secondNumber));
+  document.write("Addition" + " " + (firstNumber + secondNumber));
 } else if (operator === "-") {
-  console.log("Subtraction" + " " + (firstNumber - secondNumber));
+  document.write("Subtraction" + " " + (firstNumber - secondNumber));
 } else if (operator === "*") {
-  console.log("Muliplication " + " " + (firstNumber * secondNumber));
+  document.write("Muliplication " + " " + (firstNumber * secondNumber));
 } else if (operator === "/") {
-  console.log("Division " + " " + (firstNumber / secondNumber));
+  document.write("Division " + " " + (firstNumber / secondNumber));
 } else if (operator === "%") {
-  console.log("modulus " + " " + (firstNumber % secondNumber));
+  document.write("modulus " + " " + (firstNumber % secondNumber));
 } else {
-    console.log("Invalid operator. please enter one of + - * / % ");
+    document.write("Invalid operator. please enter one of + - * / % ");
 }
-
 
 
